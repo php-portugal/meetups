@@ -6,4 +6,4 @@
 
 We are a community around PHP and Web Technologies, from Lisbon - Portugal. 
 
-We are always on the lookout for speakers, companies that want to host an event or companies that want to contribute and sponsor an event. Don't be a stranger, get in touch: **<enunomaduro@gmail.com>**.
+We are always on the lookout for speakers, companies that want to host an meetup or companies that want to contribute and sponsor an meetup. Don't be a stranger, get in touch: **<enunomaduro@gmail.com>**.
