@@ -6,7 +6,7 @@ Event: [allevents.in/lisboa/php-lisbon-2-at-clientscape/10000379902958977](https
 
 PHP Lisbon is a community around PHP and Web Technologies, from Lisbon - Portugal. And today, we're happy to invite you to our PHP Lisbon #2 meetup, hosted by our friends at Clientscape!
 
-Sponsor: Clientscape
+Sponsor: [clientscape.com](https://www.clientscape.com)
 
 📆 Event Schedule
 
