@@ -1,3 +1,12 @@
+---
+title: 'Meetup #1'
+excerpt: 'Our PHP Lisbon #1 meetup, hosted by our friends at Mollie!'
+coverImage: '/assets/blog/meetup-1/1.jpg'
+date: '2022-05-17T19:00:00.000Z'
+ogImage:
+  url: '/assets/blog/meetup-1/1.jpg'
+---
+
 ## Meetup #1
 
 Event: [eventbrite.pt/e/bilhetes-php-lisbon-1-at-mollie-310136726297](https://www.eventbrite.pt/e/bilhetes-php-lisbon-1-at-mollie-310136726297)
