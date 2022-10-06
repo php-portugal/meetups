@@ -1,3 +1,12 @@
+---
+title: 'Meetup #3'
+excerpt: 'We are happy to invite you to our PHP Lisbon #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!'
+date: '2022-10-02T19:00:00.000Z'
+coverImage: '/assets/images/php-lisbon.png'
+ogImage:
+  url: '/assets/images/php-lisbon.png'
+---
+
 ## Meetup #3
 
 Event: [eventbrite.com/e/php-lisbon-3-at-vic-properties-grupo-confrasilvas-tickets-429093017767](https://www.eventbrite.com/e/php-lisbon-3-at-vic-properties-grupo-confrasilvas-tickets-429093017767)
