@@ -1,7 +1,7 @@
 # PHP Lisbon
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/php-lisbon/meetups/main/%401x.png" width="100%" alt="PEST">
+    <img src="https://github.com/php-lisbon/meetups/blob/main/public/og-image.png?raw=true" width="100%" alt="php lisbon logo">
 </p>
 
 We are a community around PHP and Web Technologies, from Lisbon - Portugal.
