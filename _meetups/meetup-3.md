@@ -21,9 +21,9 @@ Sponsor: [vic-properties.com](http://vic-properties.com) / [confrasilvas.com](ht
 
     18:30 - Doors open
     19:00 - Introduction and announcements
-    19:15 - Talk 1: TBD
+    19:15 - Talk 1: "WTH is the Jamstack" by André Varandas
     19:35 - 5 minutes break
-    19:40 - Talk 2: TBD
+    19:40 - Talk 2: "Introduction to Docker" by João Patrício
     20:00 - Snacks, Beer, Pizza, socialization
 
 Talks, food, and drinks are free, thanks to our friends at VIC Properties / Grupo Confrasilvas. ❤️
