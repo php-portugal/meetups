@@ -8,6 +8,8 @@ We are a community around PHP and Web Technologies, from Lisbon - Portugal.
 
 We are always on the lookout for speakers, companies that want to host an meetup or companies that want to contribute and sponsor an meetup. Don't be a stranger, get in touch: **<enunomaduro@gmail.com>**.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99b42887-9bf9-4f83-b1aa-b8114c0da717/deploy-status)](https://app.netlify.com/sites/php-lisbon/deploys)
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
