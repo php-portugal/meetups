@@ -15,6 +15,7 @@ const CoverImage = ({ title, src, slug, className }: CoverImageProps) => {
     <Image
       layout="fill"
       src={src}
+      priority
       alt={`Cover Image for ${title}`}
       className={cn(
         {
