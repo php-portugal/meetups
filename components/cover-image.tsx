@@ -1,7 +1,8 @@
-import cn from 'classnames'
-import Image from 'next/image'
-import Link from 'next/link'
-import { CSSProperties } from 'react'
+import cn from 'classnames';
+import Image from 'next/image';
+import Link from 'next/link';
+import { CSSProperties } from 'react';
+
 
 type CoverImageProps = {
   title: string
@@ -16,6 +17,7 @@ const CoverImage = ({ title, src, slug, className }: CoverImageProps) => {
       layout="fill"
       src={src}
       priority
+      sizes='(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 33vw"'
       alt={`Cover Image for ${title}`}
       className={cn(
         {
