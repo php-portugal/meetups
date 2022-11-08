@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 import CoverImage from './cover-image'
 import DateFormatter from './date-formatter'
+import { TBD } from '../lib/constants'
 
 type HeroPostProps = {
   title: string
@@ -9,6 +10,34 @@ type HeroPostProps = {
   date: string
   excerpt: string
   slug: string
+}
+
+type PostTitleProps = {
+  date: string
+  slug: string
+  title: string
+}
+
+const RenderTitle = ({
+  date,
+  slug,
+  title
+}: PostTitleProps) => {
+  if (date === TBD) {
+    return (
+      <h3 className="mb-4 font-serif text-4xl lg:text-5xl leading-tight text-purple-900">
+        {title}
+      </h3>
+    )
+  }
+
+  return (
+    <h3 className="mb-4 font-serif text-4xl lg:text-5xl leading-tight">
+      <Link as={`/meetups/${slug}`} href="/meetups/[slug]">
+        <a className="hover:underline text-purple-900">{title}</a>
+      </Link>
+    </h3>
+  )
 }
 
 const HeroPost = ({
@@ -26,15 +55,11 @@ const HeroPost = ({
             className="rounded-md object-cover"
             title={title}
             src={coverImage}
-            slug={slug}
+            slug={date === TBD ? undefined : slug}
           />
         </div>
         <div className="basis-1/2">
-          <h3 className="mb-4 font-serif text-4xl lg:text-5xl leading-tight">
-            <Link as={`/meetups/${slug}`} href="/meetups/[slug]">
-              <a className="hover:underline text-purple-900">{title}</a>
-            </Link>
-          </h3>
+          <RenderTitle date={date} slug={slug} title={title} />
           <DateFormatter className="text-gray-500" dateString={date} />
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
         </div>
