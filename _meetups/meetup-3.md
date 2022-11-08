@@ -1,10 +1,10 @@
 ---
 title: 'Meetup #3'
-excerpt: 'We are happy to invite you to our PHP Lisbon #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!'
+excerpt: 'Our PHP Lisbon #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!'
 date: '2022-11-02T19:00:00.000Z'
-coverImage: '/assets/images/php-lisbon.png'
+coverImage: '/assets/blog/meetup-3/1.jpeg'
 ogImage:
-  url: '/assets/images/php-lisbon.png'
+  url: '/assets/blog/meetup-3/1.jpeg'
 ---
 
 ## Meetup #3
