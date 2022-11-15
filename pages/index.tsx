@@ -19,10 +19,15 @@ export default function Index({ allMeetups }: IndexPageProps) {
     <>
       <Layout>
         <Head>
-          <title>PHP Lisbon</title>
+          <title>PHP Lisbon - The PHP and Web Dev Meetup for the Lisbon area</title>
         </Head>
         <Container>
           <Intro />
+
+          <h2 className="mt-20 mb-8 text-5xl font-serif lg:text-7xl font-bold tracking-tighter leading-tight">
+            Next Meetup
+          </h2>
+
           {heroPost && (
             <HeroPost
               title={heroPost.title}
