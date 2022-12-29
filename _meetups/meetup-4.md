@@ -21,9 +21,9 @@ Sponsor: [xgeeks.io](https://xgeeks.io)
 
     18:30 - Doors open
     19:00 - Introduction and announcements
-    19:15 - Talk 1: "Fantastic functions and where to find them" by Freek Van der Herten
+    19:15 - Talk 1: "DTOs in Laravel - Why and How" by Wendell Adriel
     19:35 - 5 minutes break
-    19:40 - Talk 2: "DTOs in Laravel - Why and How" by Wendell Adriel
+    19:40 - Talk 2: "Fantastic functions and where to find them" by Freek Van der Herten
     20:00 - Snacks, Beer, Pizza, socialization
 
 Talks, food, and drinks are free, thanks to our friends at xgeeks. ❤️
