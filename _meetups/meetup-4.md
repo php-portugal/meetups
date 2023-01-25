@@ -2,9 +2,9 @@
 title: 'Meetup #4'
 excerpt: 'Our PHP Lisbon #4 meetup, hosted by our friends at xgeeks!'
 date: '2023-01-24T19:00:00.000Z'
-coverImage: '/assets/images/php-lisbon.png'
+coverImage: '/assets/blog/meetup-4/1.jpeg'
 ogImage:
-  url: '/assets/images/php-lisbon.png'
+  url: '/assets/blog/meetup-4/1.jpeg'
 ---
 
 ## Meetup #4
