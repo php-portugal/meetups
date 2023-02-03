@@ -2,7 +2,7 @@ import Container from './container'
 import { GITHUB_URL } from '../lib/constants'
 
 const Footer = () => {
-  const copyright = `<?php Lisbon @ ${new Date().getFullYear()} ?>`
+  const copyright = `<?php Portugal @ ${new Date().getFullYear()} ?>`
 
   return (
     <footer className="bg-neutral-50 border-t border-neutral-200">

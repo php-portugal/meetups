@@ -1,6 +1,6 @@
 ---
 title: 'Meetup #2'
-excerpt: 'Our PHP Lisbon #2 meetup, hosted by our friends at Clientscape!'
+excerpt: 'Our PHP Portugal #2 meetup, hosted by our friends at Clientscape!'
 coverImage: '/assets/blog/meetup-2/1.jpeg'
 date: '2022-09-22T19:00:00.000Z'
 ogImage:
@@ -11,9 +11,9 @@ ogImage:
 
 Event: [allevents.in/lisboa/php-lisbon-2-at-clientscape/10000379902958977](https://allevents.in/lisboa/php-lisbon-2-at-clientscape/10000379902958977)
 
-> We're happy to invite you to our PHP Lisbon #2 meetup, hosted by our friends at Clientscape!
+> We're happy to invite you to Our PHP Portugal #2 meetup, hosted by our friends at Clientscape!
 
-PHP Lisbon is a community around PHP and Web Technologies, from Lisbon - Portugal. And today, we're happy to invite you to our PHP Lisbon #2 meetup, hosted by our friends at Clientscape!
+PHP Portugal is a community around PHP and Web Technologies, from Portugal. And today, we're happy to invite you to Our PHP Portugal #2 meetup, hosted by our friends at Clientscape!
 
 Sponsor: [clientscape.com](https://www.clientscape.com)
 

@@ -1,6 +1,6 @@
 ---
 title: 'Meetup #4'
-excerpt: 'Our PHP Lisbon #4 meetup, hosted by our friends at xgeeks!'
+excerpt: 'Our PHP Portugal #4 meetup, hosted by our friends at xgeeks!'
 date: '2023-01-24T19:00:00.000Z'
 coverImage: '/assets/blog/meetup-4/1.jpeg'
 ogImage:
@@ -11,9 +11,9 @@ ogImage:
 
 Event: [www.eventbrite.com/e/php-lisbon-4-at-xgeeks-tickets-489399566277](https://www.eventbrite.com/e/php-lisbon-4-at-xgeeks-tickets-489399566277)
 
-> We're happy to invite you to our PHP Lisbon #4 meetup, hosted by our friends at xgeeks!
+> We're happy to invite you to Our PHP Portugal #4 meetup, hosted by our friends at xgeeks!
 
-PHP Lisbon is a community around PHP and Web Technologies, from Lisbon - Portugal. And today, we're happy to invite you to our PHP Lisbon #4 meetup, hosted by our friends at xgeeks!
+PHP Portugal is a community around PHP and Web Technologies, from Portugal. And today, we're happy to invite you to Our PHP Portugal #4 meetup, hosted by our friends at xgeeks!
 
 Sponsor: [xgeeks.io](https://xgeeks.io)
 

@@ -19,7 +19,7 @@ export default function Index({ allMeetups }: IndexPageProps) {
     <>
       <Layout>
         <Head>
-          <title>PHP Lisbon - The PHP and Web Dev Meetup for the Lisbon area</title>
+          <title>PHP Portugal - The PHP and Web Dev Meetup in Portugal</title>
         </Head>
         <Container>
           <Intro />
