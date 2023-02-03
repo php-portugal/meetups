@@ -1,6 +1,6 @@
 ---
 title: 'Meetup #3'
-excerpt: 'Our PHP Lisbon #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!'
+excerpt: 'Our PHP Portugal #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!'
 date: '2022-11-02T19:00:00.000Z'
 coverImage: '/assets/blog/meetup-3/1.jpeg'
 ogImage:
@@ -11,9 +11,9 @@ ogImage:
 
 Event: [eventbrite.com/e/php-lisbon-3-at-vic-properties-grupo-confrasilvas-tickets-429093017767](https://www.eventbrite.com/e/php-lisbon-3-at-vic-properties-grupo-confrasilvas-tickets-429093017767)
 
-> We're happy to invite you to our PHP Lisbon #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!
+> We're happy to invite you to Our PHP Portugal #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!
 
-PHP Lisbon is a community around PHP and Web Technologies, from Lisbon - Portugal. And today, we're happy to invite you to our PHP Lisbon #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!
+PHP Portugal is a community around PHP and Web Technologies, from Portugal. And today, we're happy to invite you to Our PHP Portugal #3 meetup, hosted by our friends at VIC Properties / Grupo Confrasilvas!
 
 Sponsor: [vic-properties.com](http://vic-properties.com) / [confrasilvas.com](http://confrasilvas.com)
 

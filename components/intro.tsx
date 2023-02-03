@@ -1,5 +1,5 @@
 const Intro = () => {
-  const introHeading = '<?php Lisbon'
+  const introHeading = '<?php Portugal'
 
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
@@ -7,7 +7,7 @@ const Intro = () => {
         {introHeading}
       </h1>
       <h2 className="text-center font-bold md:text-left text-lg mt-5 md:pl-8">
-        A community of PHP developers in Lisbon, Portugal.
+        A community of PHP developers in Portugal.
       </h2>
     </section>
   )

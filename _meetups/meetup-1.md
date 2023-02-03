@@ -1,6 +1,6 @@
 ---
 title: 'Meetup #1'
-excerpt: 'Our PHP Lisbon #1 meetup, hosted by our friends at Mollie!'
+excerpt: 'Our PHP Portugal #1 meetup, hosted by our friends at Mollie!'
 coverImage: '/assets/blog/meetup-1/1.jpg'
 date: '2022-05-17T19:00:00.000Z'
 ogImage:
@@ -11,9 +11,9 @@ ogImage:
 
 Event: [eventbrite.pt/e/bilhetes-php-lisbon-1-at-mollie-310136726297](https://www.eventbrite.pt/e/bilhetes-php-lisbon-1-at-mollie-310136726297)
 
-> We're happy to invite you to our PHP Lisbon #1 meetup, hosted by our friends at Mollie!
+> We're happy to invite you to Our PHP Portugal #1 meetup, hosted by our friends at Mollie!
 
-PHP Lisbon is a community around PHP and Web Technologies, from Lisbon - Portugal. And today, we're happy to invite you to our PHP Lisbon #1 meetup, hosted by our friends at Mollie!
+PHP Portugal is a community around PHP and Web Technologies, from Portugal. And today, we're happy to invite you to Our PHP Portugal #1 meetup, hosted by our friends at Mollie!
 
 Sponsor: [mollie.com](https://www.mollie.com/en)
 

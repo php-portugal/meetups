@@ -24,7 +24,7 @@ export default function Post({ post, morePosts, preview }: Props) {
     return <ErrorPage statusCode={404} />
   }
 
-  const postTitle = `${post.title} | PHP Lisbon`
+  const postTitle = `${post.title} | PHP Portugal`
 
   return (
     <Layout preview={preview}>
