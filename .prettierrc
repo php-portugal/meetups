@@ -1,7 +1,0 @@
-{
-  "singleQuote": true,
-  "semi": false,
-  "importOrder": ["^[./]"],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true
-}
