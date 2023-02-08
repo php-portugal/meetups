@@ -11,7 +11,7 @@ const MoreStories = ({ meetups }: MoreStoriesProps) => {
       <h2 className="mt-20 mb-8 text-5xl font-serif lg:text-7xl font-bold tracking-tighter leading-tight">
         Past Meetups
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-8 gap-y-12 md:gap-y-32 mb-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-8 gap-y-12">
         {meetups.map((meetup) => (
           <PostPreview
             key={meetup.slug}

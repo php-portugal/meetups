@@ -48,17 +48,17 @@ const HeroPost = ({
   slug,
 }: HeroPostProps) => {
   return (
-    <section className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
+    <section className="bg-white rounded-lg border border-gray-200 shadow-md">
       <div className="flex flex-col md:flex-row gap-6">
         <div className="md:basis-1/2 relative w-full h-64">
           <CoverImage
-            className="rounded-md object-cover"
+            className="rounded-t-md md:rounded-l-md md:rounded-tr-none object-cover"
             title={title}
             src={coverImage}
             slug={date === TBD ? undefined : slug}
           />
         </div>
-        <div className="basis-1/2">
+        <div className="basis-1/2 p-6">
           <RenderTitle date={date} slug={slug} title={title} />
           <DateFormatter className="text-gray-500" dateString={date} />
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
