@@ -1,8 +1,8 @@
 const Intro = () => {
-  const introHeading = '<?php Portugal'
+  const introHeading = '<?pt'
 
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
+    <section className="flex-col md:flex-row flex items-center justify-center my-10">
       <h1 className="text-3xl text-purple-900 font-serif lg:text-7xl font-bold tracking-tighter leading-tight md:pr-8">
         {introHeading}
       </h1>

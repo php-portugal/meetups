@@ -24,7 +24,7 @@ export default function Index({ allMeetups }: IndexPageProps) {
         <Container>
           <Intro />
 
-          <h2 className="mt-20 mb-8 text-5xl font-serif lg:text-7xl font-bold tracking-tighter leading-tight">
+          <h2 className="my-8 text-5xl font-serif lg:text-7xl font-bold tracking-tighter leading-tight">
             Next Meetup
           </h2>
 

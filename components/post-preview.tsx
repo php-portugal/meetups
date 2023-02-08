@@ -19,7 +19,7 @@ const PostPreview = ({
   slug,
 }: PostPreviewProps) => {
   return (
-    <div className="bg-white rounded-lg border">
+    <div className="bg-white rounded-lg border shadow-md">
       <div className="relative w-full h-64">
         <CoverImage
           slug={slug}

@@ -34,7 +34,7 @@ export default function Post({ post, morePosts, preview }: Props) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="max-w-3xl mx-auto mb-32">
+            <article className="max-w-3xl mx-auto">
               <Head>
                 <title>{postTitle}</title>
                 <meta property="og:image" content={post.ogImage.url} />
