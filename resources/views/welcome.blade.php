@@ -1,9 +1,9 @@
 <html lang="pt">
 <head>
-    <x-meta />
+    <x-meta/>
     <title> PHP Portugal - The PHP and Web Dev Meetup in Portugal </title>
     <link rel="icon" href="https://fav.farm/🇵🇹"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
     @vite(['resources/js/app.js', 'resources/css/app.css'])
 </head>
 <body>
@@ -25,10 +25,11 @@
             </h2>
 
             <div class="flex justify-center">
-                <img src="/assets/images/executive-director.jpg" />
+                <img src="/assets/images/executive-director.jpg"/>
             </div>
         </div>
     </main>
+    <x-footer />
 </div>
 </body>
 </html>

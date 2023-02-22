@@ -11,8 +11,8 @@
 ])
 
 <div class="mb-12 space-y-4">
-    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">{{ $date }}</h3>
-    <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">{{ $title }}</h3>
+    <h3 class="text-gray-400">{{ $date }}</h3>
+    <h3 class="text-2xl font-semibold text-gray-800">{{ $title }}</h3>
     @isset($event)
         @empty($eventLink)
             <p> {{ $event }} </p>
@@ -26,7 +26,7 @@
         @endempty
     @endisset
 
-    <p class="mb-6 text-gray-600 dark:text-gray-300">
+    <p class="mb-6 text-gray-600">
         <x-markdown>
             {{ $content }}
         </x-markdown>
