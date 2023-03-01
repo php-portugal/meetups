@@ -8,6 +8,8 @@
     @vite(['resources/js/app.js', 'resources/css/app.css'])
 </head>
 <body>
+    <x-ui.header />
     <x-filament-fabricator::page-blocks :blocks="$page->blocks" />
+    <x-ui.footer />
 </body>
 </html>

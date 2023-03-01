@@ -2,6 +2,7 @@
 
 namespace App\Filament\Fabricator\PageBlocks;
 
+use Awcodes\Curator\Components\Forms\CuratorPicker;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\MarkdownEditor;
@@ -15,8 +16,13 @@ class MeetupBody extends PageBlock
     {
         return Block::make('meetup-body')
             ->schema([
+                CuratorPicker::make('featured_image'),
+
                 DatePicker::make('date'),
                 TextInput::make('title'),
+
+                TextInput::make('location'),
+                TextInput::make('locationLink')->label('Location Link'),
 
                 TextInput::make('Event'),
                 TextInput::make('EventLink')->label('Event Link'),
