@@ -18,9 +18,9 @@
     <p class="text-base font-semibold leading-7 text-indigo-600">{{ \Carbon\Carbon::parse($date)->format('F d, Y') }}</p>
     <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ $title }}</h1>
 
-        @if($featured_image)
+        @if ($featured_image)
             <figure class="my-5">
-                <img class="aspect-video rounded-xl bg-gray-50 object-cover" src="/assets/images/executive-director.jpg" alt="">
+                <img src="{{ $featured_image->url }}" alt="">
             </figure>
        @endif
 

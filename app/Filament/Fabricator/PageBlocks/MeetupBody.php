@@ -3,11 +3,12 @@
 namespace App\Filament\Fabricator\PageBlocks;
 
 use Awcodes\Curator\Components\Forms\CuratorPicker;
+use Awcodes\Curator\Models\Media;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\MarkdownEditor;
-use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Textarea;
 use Z3d0X\FilamentFabricator\PageBlocks\PageBlock;
 
 class MeetupBody extends PageBlock
@@ -38,6 +39,11 @@ class MeetupBody extends PageBlock
 
     public static function mutateData(array $data): array
     {
-        return $data;
+        return [
+            ...$data,
+            'featured_image' => Media::query()->find(
+                data_get($data, 'featured_image')
+            ),
+        ];
     }
 }
