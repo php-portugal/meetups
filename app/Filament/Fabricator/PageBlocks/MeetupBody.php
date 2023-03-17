@@ -8,7 +8,6 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Textarea;
 use Z3d0X\FilamentFabricator\PageBlocks\PageBlock;
 
 class MeetupBody extends PageBlock
@@ -32,7 +31,8 @@ class MeetupBody extends PageBlock
                 TextInput::make('SponsorLink')->label('Sponsor Link'),
 
                 MarkdownEditor::make('content'),
-                MarkdownEditor::make('schedule'),
+                MarkdownEditor::make('schedule')
+                    ->hint('Do not forget to use a list.'),
                 MarkdownEditor::make('footer'),
             ]);
     }

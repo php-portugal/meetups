@@ -17,20 +17,26 @@ class HomeController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('welcome', [
-            'pages' => Page::where('layout', 'meetup')->get()
-                ->map(function ($page) {
-                    $data = data_get($page, 'blocks.0.data');
+        $meetups = Page::where('layout', 'meetup')->get()->map(function ($page) {
+            $data = data_get($page, 'blocks.0.data');
 
-                    return [
-                        'slug' => $page->slug,
-                        'title' => $data['title'],
-                        'content' => str($data['content'])->limit(200),
-                        'date' => Carbon::parse($data['date']),
-                        'location' => $data['location'],
-                        'featured_image' => Media::query()->find($data['featured_image'])->url,
-                    ];
-                }),
+            return [
+                'slug' => $page->slug,
+                'title' => $data['title'],
+                'content' => str($data['content'])->limit(200),
+                'date' => Carbon::parse($data['date']),
+                'location' => $data['location'],
+                'featured_image' => Media::query()->find($data['featured_image'])->url,
+            ];
+        });
+
+        [$pastMeetups, $nextMeetups] = $meetups->partition(
+            fn ($meetup) => $meetup['date']?->isPast()
+        );
+
+        return view('welcome', [
+            'pastMeetups' => $pastMeetups,
+            'nextMeetups' => $nextMeetups,
         ]);
     }
 }

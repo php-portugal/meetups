@@ -7,6 +7,7 @@ use Illuminate\View\Component;
 class Meta extends Component
 {
     public $homeMetaDescription;
+
     public $homeOgImage_url;
 
     /**

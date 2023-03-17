@@ -19,9 +19,11 @@ class DatabaseSeeder extends Seeder
             abort(500, 'Never gonna let you down!');
         }
 
+        $this->call(PagesTableSeeder::class);
+
         User::factory()->create([
-             'name' => 'Test User',
-             'email' => 'test@example.com',
-         ]);
+            'name' => 'Test User',
+            'email' => 'test@example.com',
+        ]);
     }
 }
