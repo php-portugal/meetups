@@ -20,3 +20,7 @@
 .markdown pre {
   @apply w-full overflow-auto text-sm md:text-base pb-4;
 }
+
+.markdown a {
+  @apply underline;
+}

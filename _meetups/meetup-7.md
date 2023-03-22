@@ -7,7 +7,7 @@ ogImage:
   url: '/assets/images/php-lisbon.png'
 ---
 
-## Meetup #6
+## Meetup #7
 
 Event: [Link no EventBrite](https://www.eventbrite.pt/e/php-portugal-7-at-devoteam-tickets-570946405067)
 
