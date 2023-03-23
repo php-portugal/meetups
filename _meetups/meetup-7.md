@@ -1,7 +1,7 @@
 ---
 title: 'Meetup #7'
 excerpt: 'Our PHP Portugal #7 meetup, hosted by our friends at Devoteam!'
-date: '2023-03-27T00:00:00.000Z'
+date: '2023-03-28T19:00:00.000Z'
 coverImage: '/assets/images/php-lisbon.png'
 ogImage:
   url: '/assets/images/php-lisbon.png'
@@ -9,7 +9,7 @@ ogImage:
 
 ## Meetup #7
 
-Event: [Link no EventBrite](https://www.eventbrite.pt/e/php-portugal-7-at-devoteam-tickets-570946405067)
+Event: [Open EventBrite](https://www.eventbrite.pt/e/php-portugal-7-at-devoteam-tickets-570946405067)
 
 > We're happy to invite you to Our PHP Portugal #7 meetup, hosted by our friends at Devoteam!
 
