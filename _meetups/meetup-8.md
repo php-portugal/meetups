@@ -25,7 +25,7 @@ Sponsor: [XGeeks](https://www.xgeeks.io)
     19:00 - Open stage, announcements
     19:10 - Talk 1: "Pest: the elegant PHP testing" // Nuno Maduro
     19:25 - Talk 2: "Can You See My Screen" // Caneco
-    19:45 - Panel & Gamification
+    19:45 - Panel A.M.A. & Surprises
     20:05 - Snacks, Beer, socialization
 
 Talks, food, and drinks are free, thanks to our friends at XGeeks. ❤️
