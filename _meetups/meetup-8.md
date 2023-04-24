@@ -21,8 +21,8 @@ Sponsor: [XGeeks](https://www.xgeeks.io)
 
 📆 Event Schedule
 
-    18:30 - Doors open
-    19:00 - Introduction and announcements
+    18:30 - Doors open, check-in, welcome and warm-up
+    19:00 - Stage opens, announcements
     19:10 - Talk 1: "Pest: the elegant PHP testing" // Nuno Maduro
     19:25 - Talk 2: "Can You See My Screen" // Caneco
     19:45 - Panel & Gamification
