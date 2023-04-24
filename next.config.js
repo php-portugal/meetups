@@ -20,6 +20,11 @@ const nextConfig = {
         destination: 'https://forms.gle/mKYsTdLUkSWu8Bve8',
         permanent: false,
       },
+      {
+        source: '/ama',
+        destination: 'https://forms.gle/kYTzKVGYHNYNKvN98',
+        permanent: false,
+      },
     ]
   },
 }
