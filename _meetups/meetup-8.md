@@ -11,7 +11,7 @@ ogImage:
 
 Event: [Open EventBrite](https://php.eventbrite.pt)
 
-Informationa and Guide: [Road to PHP Portugal Meetup #8](https://php-portugal.com/leiria)
+Information and Guide: [Road to PHP Portugal Meetup #8](https://php-portugal.com/leiria)
 
 > We're happy to invite you to Our PHP Portugal #8 meetup, hosted by our friends at XGeeks!
 
