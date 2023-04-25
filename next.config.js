@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: '/telegram',
-        destination: 'https://t.me/%2Ba1s1B-UyyhcxNWRk',
+        destination: 'https://t.me/%2BlcFZSTzTMwc3NjQ8',
         permanent: false,
       },
       {
