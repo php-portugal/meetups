@@ -19,7 +19,12 @@ export default function Index({allMeetups}: IndexPageProps) {
     })
     .reverse()
 
-  const morePosts = allMeetups.slice(1)
+  const morePosts = allMeetups
+    .filter((meetup) => {
+      return (Date.now() - Date.parse(meetup.date)) >= 0
+    })
+    .reverse()
+
   return <>
     <Layout>
       <Head>
