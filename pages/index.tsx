@@ -33,6 +33,7 @@ export default function Index({allMeetups}: IndexPageProps) {
         {
           nextMeetups && nextMeetups.map((meetup) => (
             <HeroPost
+              key={meetup.slug}
               title={meetup.title}
               coverImage={meetup.coverImage}
               date={meetup.date}
