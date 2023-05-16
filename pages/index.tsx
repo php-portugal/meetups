@@ -13,10 +13,12 @@ type IndexPageProps = {
 }
 
 export default function Index({allMeetups}: IndexPageProps) {
-  const heroPost = allMeetups[0]
-  const nextMeetups = allMeetups.filter((meetup) => {
-    return (Date.now() - Date.parse(meetup.date)) < 0
-  })
+  const nextMeetups = allMeetups
+    .filter((meetup) => {
+      return (Date.now() - Date.parse(meetup.date)) < 0
+    })
+    .reverse()
+
   const morePosts = allMeetups.slice(1)
   return <>
     <Layout>
