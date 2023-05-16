@@ -23,7 +23,6 @@ export default function Index({allMeetups}: IndexPageProps) {
     .filter((meetup) => {
       return (Date.now() - Date.parse(meetup.date)) >= 0
     })
-    .reverse()
 
   return <>
     <Layout>
