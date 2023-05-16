@@ -2,9 +2,9 @@
 title: 'Meetup #9'
 excerpt: 'Our PHP Portugal #9 meetup, hosted by our friends at Infraspeak!'
 date: '2023-05-31T19:00:00.000Z'
-coverImage: '/assets/images/php-porto-infraspeak.png'
+coverImage: '/assets/images/php-porto-infraspeak.jpg'
 ogImage:
-  url: '/assets/images/php-porto-infraspeak.png'
+  url: '/assets/images/php-porto-infraspeak.jpg'
 ---
 
 ## Meetup #9

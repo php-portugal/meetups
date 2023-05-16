@@ -2,9 +2,9 @@
 title: 'Meetup #10'
 excerpt: 'Our PHP Portugal #10 meetup, hosted by our friends at Gapstars!'
 date: '2023-06-15T18:30:00.000Z'
-coverImage: '/assets/images/php-lisbon-gapstars.png'
+coverImage: '/assets/images/php-lisbon-gapstars.jpg'
 ogImage:
-  url: '/assets/images/php-lisbon-gapstars.png'
+  url: '/assets/images/php-lisbon-gapstars.jpg'
 ---
 
 ## Meetup #10
