@@ -52,7 +52,7 @@ const HeroPost = ({
       <div className="flex flex-col md:flex-row gap-6">
         <div className="md:basis-1/2 relative w-full h-64">
           <CoverImage
-            className="rounded-t-md md:rounded-l-md md:rounded-tr-none object-cover"
+            className="rounded-t-md md:rounded-l-md md:rounded-tr-none object-fit"
             title={title}
             src={coverImage}
             slug={date === TBD ? undefined : slug}
