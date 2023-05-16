@@ -48,7 +48,7 @@ const HeroPost = ({
   slug,
 }: HeroPostProps) => {
   return (
-    <section className="bg-white rounded-lg border border-gray-200 shadow-md">
+    <section className="my-16 bg-white rounded-lg border border-gray-200 shadow-md">
       <div className="flex flex-col md:flex-row gap-6">
         <div className="md:basis-1/2 relative w-full h-64">
           <CoverImage

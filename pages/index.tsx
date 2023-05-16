@@ -6,42 +6,46 @@ import Intro from '../components/intro'
 import Layout from '../components/layout'
 import MoreStories from '../components/more-stories'
 import Meetup from '../interfaces/meetup'
-import { getAllMeetups } from '../lib/api'
+import {getAllMeetups} from '../lib/api'
 
 type IndexPageProps = {
   allMeetups: Meetup[]
 }
 
-export default function Index({ allMeetups }: IndexPageProps) {
+export default function Index({allMeetups}: IndexPageProps) {
   const heroPost = allMeetups[0]
+  const nextMeetups = allMeetups.filter((meetup) => {
+    return (Date.now() - Date.parse(meetup.date)) < 0
+  })
   const morePosts = allMeetups.slice(1)
-  return (
-    <>
-      <Layout>
-        <Head>
-          <title>PHP Portugal - The PHP and Web Dev Meetup in Portugal</title>
-        </Head>
-        <Container>
-          <Intro />
+  return <>
+    <Layout>
+      <Head>
+        <title>PHP Portugal - The PHP and Web Dev Meetup in Portugal</title>
+      </Head>
+      <Container>
+        <Intro/>
 
-          <h2 className="my-8 text-5xl font-serif lg:text-7xl font-bold tracking-tighter leading-tight">
-            Next Meetup
-          </h2>
+        <h2 className="my-8 text-5xl font-serif lg:text-7xl font-bold tracking-tighter leading-tight">
+          Next Meetup(s)
+        </h2>
 
-          {heroPost && (
+        {
+          nextMeetups && nextMeetups.map((meetup) => (
             <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
+              title={meetup.title}
+              coverImage={meetup.coverImage}
+              date={meetup.date}
+              slug={meetup.slug}
+              excerpt={meetup.excerpt}
             />
-          )}
-          {morePosts.length > 0 && <MoreStories meetups={morePosts} />}
-        </Container>
-      </Layout>
-    </>
-  )
+          ))
+        }
+
+        {morePosts.length > 0 && <MoreStories meetups={morePosts}/>}
+      </Container>
+    </Layout>
+  </>
 }
 
 export const getStaticProps = async () => {
@@ -55,6 +59,6 @@ export const getStaticProps = async () => {
   ])
 
   return {
-    props: { allMeetups },
+    props: {allMeetups},
   }
 }
