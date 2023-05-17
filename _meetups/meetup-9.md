@@ -9,7 +9,7 @@ ogImage:
 
 ## Meetup #9
 
-Event: [Open EventBrite](https://php.eventbrite.pt)
+Event: [Open EventBrite](https://www.eventbrite.pt/e/bilhetes-php-portugal-porto-at-infraspeak-v9-634275604407?aff=ebdsoporgprofile)
 
 > We're happy to invite you to Our PHP Portugal #6 meetup, hosted by our friends at Infraspeak!
 
@@ -19,6 +19,10 @@ Sponsor: [Infraspeak](https://infraspeak.com/pt-pt)
 
 📆 Event Schedule
 
-  TBD
+    18:30 - Open doors, check-in, welcome and warm-up
+    19:00 - Open stage, announcements
+    19:15 - Talk 1: "htmx - high power tools for HTML" // Miguel Serejo
+    19:45 - Talk 2: "TALL Stack or VILT Stack, which one is better?" // Leo França
+    20:15 - Snacks, Beer, socialization
 
 Talks, food, and drinks are free, thanks to our friends at Infraspeak. ❤️

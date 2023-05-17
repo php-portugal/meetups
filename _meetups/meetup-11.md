@@ -9,7 +9,7 @@ ogImage:
 
 ## Meetup #11
 
-Event: [Open EventBrite](https://php.eventbrite.pt)
+Event: [Open EventBrite](https://www.eventbrite.pt/e/bilhetes-php-portugal-faro-at-turbine-kreuzberg-v11-634280699647?aff=ebdsoporgprofile)
 
 > We're happy to invite you to Our PHP Portugal #11 meetup, hosted by our friends at Turbine Kreuzberg!
 
@@ -19,6 +19,9 @@ Sponsor: [Turbine Kreuzberg](https://turbinekreuzberg.com)
 
 📆 Event Schedule
 
-  TBD
+    18:00 - Open doors, check-in, welcome and warm-up
+    19:00 - Talk 1: "Your code can be a little rusty" // André Sardo
+    19:40 - Talk 2: "Let your Laravel Vue App be International" // Francisco Madeira
+    20:00 - Snacks, Beer, Pizza && socialization
 
 Talks, food, and drinks are free, thanks to our friends at Turbine Kreuzberg. ❤️
