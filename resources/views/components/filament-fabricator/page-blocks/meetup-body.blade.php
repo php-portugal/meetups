@@ -60,14 +60,14 @@
             </a>
           @endempty
       @endisset
-    <div class="mt-2 max-w-2xl">
+    <div class="mt-10 max-w-2xl">
       <p>
           <x-markdown>
             {{ $content }}
           </x-markdown>
       </p>
 
-        <div class="my-5">
+        <div class="my-10">
             <p class="flex items-center gap-x-3 font-semibold text-gray-900 mb-2">
                 <x-heroicon-o-calendar class="w-4 text-purple-800" />
                 <span>Schedule</span>

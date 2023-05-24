@@ -34,7 +34,7 @@ class HomeController extends Controller
             fn ($meetup) => $meetup['date']?->isPast()
         );
 
-        return view('welcome', [
+        return view('home', [
             'pastMeetups' => $pastMeetups,
             'nextMeetups' => $nextMeetups,
         ]);
