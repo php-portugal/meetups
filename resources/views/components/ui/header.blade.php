@@ -13,7 +13,7 @@
             'url' => '#',
         ],
         [
-            'label' => 'Call for Speaker',
+            'label' => 'Call for Speakers',
             'url' => '#',
         ]
     ],

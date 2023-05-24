@@ -26,7 +26,7 @@ class HomeController extends Controller
                 'content' => str($data['content'])->limit(200),
                 'date' => Carbon::parse($data['date']),
                 'location' => $data['location'],
-                'featured_image' => Media::query()->find($data['featured_image'])->url,
+                'featured_image' => Media::query()->find($data['featured_image'])?->url,
             ];
         });
 
