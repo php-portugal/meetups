@@ -11,8 +11,8 @@
     @vite(['resources/js/app.js', 'resources/css/app.css'])
 </head>
 <body>
-    <x-ui.header />
+    <x-ui.header/>
     {{ $slot }}
-    <x-ui.footer />
+    <x-ui.footer/>
 </body>
 </html>
