@@ -16,6 +16,7 @@ if (process.env.GITPOD_VITE_URL) {
 
 export default defineConfig({
     server: {
+        host: '0.0.0.0',
         ...extendedViteDevServerOptions
     },
     plugins: [

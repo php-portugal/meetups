@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+
+# Inspired on https://github.com/adriancooney/Taskfile
+#
+set -e
+
+docker compose &>/dev/null
+if [ $? == 0 ]; then
+    DOCKER_COMPOSE="docker compose"
+else
+    DOCKER_COMPOSE="docker-compose"
+fi
+
+ENV="${ENV:-dev}"
+
+DOCKER_CMD="$DOCKER_COMPOSE -f docker-compose.$ENV.yml"
+
+function help {
+    echo "$0 <task> <args>"
+    echo "Tasks:"
+    compgen -A function | cat -n
+}
+function default {
+    help
+}
+function build {
+    $DOCKER_CMD build
+}
+function start {
+    $DOCKER_CMD up -d
+}
+function logs {
+    $DOCKER_CMD logs -f
+}
+function queue {
+    $DOCKER_CMD exec -u webuser webapp php artisan queue:listen
+}
+function schedule {
+    $DOCKER_CMD exec -u webuser webapp php artisan schedule:work
+}
+function schedule-run {
+    $DOCKER_CMD exec -u webuser webapp php artisan schedule:run
+}
+function mfs { # migrate-fresh-seed
+    $DOCKER_CMD exec -u webuser webapp php artisan migrate:fresh --seed
+}
+function webapp {
+    $DOCKER_CMD exec -u webuser webapp bash
+}
+function root-webapp {
+    $DOCKER_CMD exec webapp bash
+}
+function composerInstallInsideAnEphemeralContainer {
+    docker run \
+        --rm -w /app -v $PWD:/app \
+        composer:2 \
+        composer install --ignore-platform-reqs --no-scripts
+}
+function viteInsideAnEphemeralContainer {
+    docker run \
+        --rm -it -w /app -v $PWD:/app -p 5173:5173 \
+        node:19 \
+        sh -c "npm install && npm run build && npm run dev"
+}
+
+
+TIMEFORMAT="Task completed in %3lR"
+time "${@:-default}"
