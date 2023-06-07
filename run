@@ -23,9 +23,6 @@ function help {
 function default {
     help
 }
-function dc {
-    $DOCKER_CMD $*
-}
 function build {
     $DOCKER_CMD build
 }
@@ -41,7 +38,7 @@ function queue {
 function schedule {
     $DOCKER_CMD exec -u webuser webapp php artisan schedule:work
 }
-function schedule:run {
+function schedule-run {
     $DOCKER_CMD exec -u webuser webapp php artisan schedule:run
 }
 function mfs { # migrate-fresh-seed
@@ -59,6 +56,13 @@ function composerInstallInsideAnEphemeralContainer {
         composer:2 \
         composer install --ignore-platform-reqs --no-scripts
 }
+function viteInsideAnEphemeralContainer {
+    docker run \
+        --rm -it -w /app -v $PWD:/app -p 5173:5173 \
+        node:19 \
+        sh -c "npm install && npm run build && npm run dev"
+}
+
 
 TIMEFORMAT="Task completed in %3lR"
 time "${@:-default}"

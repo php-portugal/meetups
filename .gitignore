@@ -18,3 +18,4 @@ yarn-error.log
 /.vscode
 .DS_Store
 .bash_history
+.npm
