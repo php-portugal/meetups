@@ -45,6 +45,10 @@ class User extends Authenticatable implements FilamentUser
 
     public function canAccessFilament(): bool
     {
+        if (app()->environment('local')) {
+            return true;
+        }
+
         $adminEmails = explode(',', config('app.admins'));
 
         if (! is_array($adminEmails)) {
