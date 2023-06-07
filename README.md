@@ -14,4 +14,4 @@ Let's track everything in [TODO](./TODO.md)
 
 ## Running locally 
 
-Let's track everything in [Dev Environment](./docs/dev_environment/index.md) 
+Find instructions in [Dev Environment](./docs/dev_environment/index.md) 
