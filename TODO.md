@@ -1,5 +1,6 @@
 ## TODO
 
+- tabela na base de dados para os sponsors, com 2 colunas "nome" e "link", para ser usado nos meetups e em outras que aparecem
 - Adicionar curation de nome "list".
 - Links para os socials dos speakers
 - Link p/ album partilhado, de modo à malta poder mandar fotos/videos dos eventos anteriores
