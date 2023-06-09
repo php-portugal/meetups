@@ -1,6 +1,7 @@
 ## TODO
 
 - Adicionar curation de nome "list".
+- Links para os socials dos speakers
 - Link p/ album partilhado, de modo à malta poder mandar fotos/videos dos eventos anteriores
 - Add redirects existing in the JS app
 - Add Google's indexing Structured data
