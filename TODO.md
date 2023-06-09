@@ -1,5 +1,7 @@
 ## TODO
 
+- Link p/ album partilhado, de modo à malta poder mandar fotos/videos dos eventos anteriores
+- Mudar os pontos focais
 - Add redirects existing in the JS app
 - Add Google's indexing Structured data
   - https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=pt-br
