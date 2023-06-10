@@ -1,9 +1,12 @@
 FROM serversideup/php:8.2-fpm-nginx
 ARG POSTGRES_VERSION=15
-RUN apt-get update && apt-get install -y php-pgsql postgresql-client
+ARG NODE_VERSION=18
+RUN apt-get update && \
+    apt-get install -y php-pgsql postgresql-client && \
+    curl -sLS https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - && \
+    apt-get install -y nodejs && \
+    npm install -g npm
 RUN apt-get -y autoremove && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
-
-COPY docker/dev-ssu/nginx.conf /etc/nginx/conf.d/custom.conf
 
 RUN echo "alias ll='ls -al'" >>/etc/bash.bashrc
 RUN echo "alias a='php artisan'" >>/etc/bash.bashrc
