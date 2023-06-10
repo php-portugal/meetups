@@ -6,4 +6,13 @@ return [
     'home_og_title' => '/og-image.png',
 
     'github_url' => 'https://github.com/php-portugal/meetups',
+
+    'structured_data' => [
+
+        'founder' => 'PHP Portugal',
+
+        'keywords' => 'PHP, Portugal, meetup, tech, coding',
+
+        'organizer' => 'PHP Portugal'
+    ]
 ];

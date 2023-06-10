@@ -14,5 +14,6 @@
     <x-filament-fabricator::page-blocks :blocks="$page->blocks"/>
     <x-ui.footer />
 
+    @stack('scripts')
 </body>
 </html>
