@@ -18,3 +18,4 @@ TODO:
 - Links para os socials dos speakers
 - notificação Telegram -> qd alguém submete call for speakers
 - Link p/ album partilhado, de modo à malta poder mandar fotos/videos dos eventos anteriores
+- Job Board
