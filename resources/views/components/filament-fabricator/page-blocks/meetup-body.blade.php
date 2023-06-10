@@ -84,3 +84,8 @@
     </div>
   </div>
 </div>
+
+@push('scripts')
+    {!! $structuredData !!}
+@endpush
+
