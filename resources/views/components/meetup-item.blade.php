@@ -1,12 +1,11 @@
 @props(['meetup'])
 <article class="relative isolate flex flex-col gap-8 lg:flex-row">
-    <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+    <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:w-[480px] lg:shrink-0">
         <a href="/pages/{{ $meetup['slug'] }}">
             <img
                 src="{{ $meetup['featured_image'] }}"
                 class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
             >
-            Foo
             <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
         </a>
     </div>
