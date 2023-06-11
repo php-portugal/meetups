@@ -14,5 +14,7 @@
     <x-ui.header/>
     {{ $slot }}
     <x-ui.footer/>
+
+    <x-plausible-analytics />
 </body>
 </html>

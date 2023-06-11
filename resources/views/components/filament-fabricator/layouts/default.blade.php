@@ -11,5 +11,6 @@
     <x-ui.header />
     <x-filament-fabricator::page-blocks :blocks="$page->blocks" />
     <x-ui.footer />
+    <x-plausible-analytics />
 </body>
 </html>

@@ -15,5 +15,6 @@
     <x-ui.footer />
 
     @stack('scripts')
+    <x-plausible-analytics />
 </body>
 </html>
