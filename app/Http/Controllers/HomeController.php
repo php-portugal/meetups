@@ -37,7 +37,7 @@ class HomeController extends Controller
         /** @var Collection $pastMeetups */
         /** @var Collection $nextMeetups */
         [$pastMeetups, $nextMeetups] = $meetups->partition(
-            fn($meetup) => $meetup['date']?->isPast()
+            fn($meetup) => now()->startOfDay()->gt($meetup['date'])
         );
 
         [$pastMeetups, $nextMeetups] = [
