@@ -30,6 +30,7 @@ cp .env.example .env
 ./run webapp
 php artisan key:generate
 php artisan migrate:fresh --seed
+php artisan storage:link
 
 ## In another terminal session
 ./run webapp
