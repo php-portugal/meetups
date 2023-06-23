@@ -19,3 +19,4 @@ yarn-error.log
 .DS_Store
 .bash_history
 .npm
+.config
