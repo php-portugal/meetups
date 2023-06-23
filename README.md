@@ -1,7 +1,7 @@
 # PHP Portugal
 
 <p align="center">
-    <img src="https://github.com/php-portugal/meetups/blob/main/public/og-image.png?raw=true" width="100%" alt="php portugal logo">
+    <img src="https://github.com/cavacuz/meetups/blob/main/public/assets/images/meetup-999-999.png?raw=true" width="100%" alt="php portugal logo">
 </p>
 
 We are a community around PHP and Web Technologies, from Portugal.
