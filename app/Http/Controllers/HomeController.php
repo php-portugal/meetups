@@ -24,13 +24,19 @@ class HomeController extends Controller
             ->map(function ($page) {
                 $data = data_get($page, 'blocks.0.data');
 
+                $featuredImageMedia = Media::query()->find($data['featured_image']);
+                $featuredImage = $featuredImageMedia?->url;
+                if ($featuredImageMedia && $featuredImageMedia->hasCuration('list')) {
+                    $featuredImage = $featuredImageMedia->getCuration('list')['url'];
+                }
+
                 return [
                     'slug' => $page->slug,
                     'title' => $data['title'],
                     'content' => str($data['content'])->limit(200),
                     'date' => Carbon::parse($data['date']),
                     'location' => $data['location'],
-                    'featured_image' => Media::query()->find($data['featured_image'])?->url,
+                    'featured_image' => $featuredImage,
                 ];
             });
 
